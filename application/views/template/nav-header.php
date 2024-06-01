@@ -1,4 +1,4 @@
-<nav class="main-header navbar navbar-expand navbar-dark">
+        <nav class="main-header navbar navbar-expand navbar-info">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <img src="<?= base_url('dist/img/AdminLTELogo.png')?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-0" style="opacity: .8 width: 32px; height: 32px;">
@@ -6,8 +6,18 @@
             </ul>
             <div class="navbar-nav">
                 <div class="nav-item">
-                    <a href="<?= base_url('landing')?>" class="nav-link text-white text-bold">
+                    <div class="nav-link text-white text-bold">
+                        <p>Aplikasi Penerimaan Peserta Didik Baru (PPDB)</p>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="<?= base_url('')?>" class="nav-link text-white text-bold">
                         <i class="fas fa-home"></i> Home
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="<?= base_url('registrasi')?>" class="nav-link text-white text-bold">
+                        <i class="fas fa-edit"></i> Regsitrasi
                     </a>
                 </div>
             </div>
