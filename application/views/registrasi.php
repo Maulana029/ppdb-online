@@ -163,13 +163,21 @@
                                                     <div class="col-sm-2">
                                                         <input type="number" name="rtrw" id="rtrw2" class="form-control form-control-sm mb-2" required="true" placeholder="RW">
                                                     </div>
-                                                    <div class="col-sm-2"><label for="pilih_jurusan">Pilih Jurusan</label></div>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-2"><label for="pilih_jurusan">Jurusan</label> / <label for="pilih_gelombang">Gelombang</label></div>
+                                                    <div class="col-sm-2">
                                                         <select name="pilih_jurusan" id="pilih_jurusan" class="form-control form-control-sm mb-2" required="true">
                                                             <option value="">-- Pilih Jurusan --</option>
                                                             <option value="AKL">Akuntansi dan Keuangan Lembaga</option>
                                                             <option value="TKJ">Teknik Komputer dan Jaringan</option>
                                                             <option value="TKRO">Teknik Kendaraan Ringan Otomotif</option>
+                                                        </select>
+                                                    </div>
+                                                   
+                                                    <div class="col-sm-2">
+                                                        <select name="pilih_gelombang" id="pilih_gelombang" class="form-control form-control-sm mb-2" required="true">
+                                                            <option value="">-- Pilih Gelombang --</option>
+                                                            <option value="Gel - 1">Gelombang 1</option>
+                                                            <option value="Gel - 2">Gelombang 2</option>
                                                         </select>
                                                     </div>
                                                 </div>

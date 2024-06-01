@@ -55,6 +55,31 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <div class="card">
+                                    <div class="card-header bg-info">
+                                        <h4 class="card-title">Daftar Peserta Didik Baru</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <table class="table table-sm table-striped table-bordered" id="dtTable">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Gelombang</th>
+                                                        <th>Nama Peserta</th>
+                                                        <th>Jenis Kelamin</th>
+                                                        <th>Asal Sekolah</th>
+                                                        <th>Jurusan</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
         }
 
         public function index(){
-            $data['title'] = "Home | Formulir Pendaftaran";
+            $data['title'] = "Home | Pengumuman Pendaftaran";
             $this->load->view('home',$data);
         }
     }
