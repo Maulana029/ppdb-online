@@ -11,7 +11,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-2"></div>
-                            <div class="col-sm-8 pt-5">
+                            <div class="col-sm-8 pt-2">
                                 <div class="card bg-info">
                                     <h5 class="font-weight-normal m-3 text-center">Selamat Datang di Aplikasi Penerimaan Peserta Didik Baru Tahun Pelajaran 2024 - 2025 <br> Dibawah ini adalah pengumuman dan pemberitahuan tentang pendaftaran siswa baru </h5>
                                 </div>
@@ -63,20 +63,29 @@
                                         <h4 class="card-title">Daftar Peserta Didik Baru</h4>
                                     </div>
                                     <div class="card-body">
-                                        <div class="row">
-                                            <table class="table table-sm table-striped table-bordered" id="dtTable">
-                                                <thead>
-                                                    <tr>
-                                                        <th>No</th>
-                                                        <th>Gelombang</th>
-                                                        <th>Nama Peserta</th>
-                                                        <th>Jenis Kelamin</th>
-                                                        <th>Asal Sekolah</th>
-                                                        <th>Jurusan</th>
-                                                    </tr>
-                                                </thead>
-                                            </table>
-                                        </div>
+                                        <table class="table table-sm table-striped table-bordered" id="dtTable">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 12px;">No</th>
+                                                    <th>Gelombang</th>
+                                                    <th>Nama Peserta</th>
+                                                    <th>Jenis Kelamin</th>
+                                                    <th>Asal Sekolah</th>
+                                                    <th>Jurusan</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <th style="width: 12px;">No</th>
+                                                    <th>Gelombang</th>
+                                                    <th>Nama Peserta</th>
+                                                    <th>Jenis Kelamin</th>
+                                                    <th>Asal Sekolah</th>
+                                                    <th>Jurusan</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -85,5 +94,6 @@
                 </div>
             </div>
             <?php $this->load->view('template/nav-footer') ?>
+            <?php $this->load->view('js/js_page_home')?>
     </body>
 </html>

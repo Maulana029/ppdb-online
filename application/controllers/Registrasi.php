@@ -5,5 +5,9 @@
             $data['title'] = "Formulir Pendaftaran";
             $this->load->view('registrasi',$data);
         }
+
+        public function list_data(){
+            
+        }
     }
 ?>
