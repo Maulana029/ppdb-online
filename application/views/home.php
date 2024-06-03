@@ -49,8 +49,8 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-sm-4"><label>Panitia:</label></div>
-                                            <div class="col-sm-4"><label>089576899098</label></div>
+                                            <div class="col-sm-5"><b>Panitia:</b></div>
+                                            <div class="col-sm-8"><b>089576899098</b></div>
                                         </div>
                                     </div>
                                 </div>
@@ -95,5 +95,7 @@
             </div>
             <?php $this->load->view('template/nav-footer') ?>
             <?php $this->load->view('js/js_page_home')?>
+        </div>
+        <?php $this->load->view('template/modal_page')?>
     </body>
 </html>

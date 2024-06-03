@@ -86,10 +86,10 @@
                                                             </div>
                                                             <div class="row">
                                                                 <div class="col-sm-4">
-                                                                    <label for="Agama">Agama</label>
+                                                                    <label for="agama">Agama</label>
                                                                 </div>
                                                                 <div class="col-sm-8">
-                                                                    <select name="Agama" id="Agama" class="form-control form-control-sm mb-2" required="true">
+                                                                    <select name="agama" id="agama" class="form-control form-control-sm mb-2" required="true">
                                                                         <option value="">--- Pilih Agama ---</option>
                                                                         <option value="Islam">Islam</option>
                                                                         <option value="Kristen">Kristen</option>
@@ -112,10 +112,10 @@
                                                                     <label for="rtrw1">RT </label>/ <label for="rtrw2">RW</label>
                                                                 </div>
                                                                 <div class="col-sm-4">
-                                                                    <input type="number" name="rtrw" id="rtrw1" class="form-control form-control-sm mb-2" required="true" placeholder="RT">
+                                                                    <input type="number" name="rt" id="rtrw1" class="form-control form-control-sm mb-2" required="true" placeholder="RT">
                                                                 </div>
                                                                 <div class="col-sm-4">
-                                                                    <input type="number" name="rtrw" id="rtrw2" class="form-control form-control-sm mb-2" required="true" placeholder="RW">
+                                                                    <input type="number" name="rw" id="rtrw2" class="form-control form-control-sm mb-2" required="true" placeholder="RW">
                                                                 </div>
                                                             </div> 
                                                         </div>
@@ -209,88 +209,80 @@
                                                     <div class="row">
                                                         <div class="col-6">
                                                             <div class="row">
-                                                                    <div class="col-sm-4"><label for="nama_ayah">Nama Ayah</label></div>
-                                                                    <div class="col-sm-8"><input type="text" name="nama_ayah" id="nama_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Nama Ayah"></div>
-                                                                    <div class="col-sm-4"><label for="nama_ibu">Nama Ibu</label></div>
-                                                                    <div class="col-sm-8"><input type="text" name="nama_ibu" id="nama_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Nama Ibu"></div>
+                                                                <div class="col-sm-4"><label for="nama_ayah">Nama Ayah</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="nama_ayah" id="nama_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Nama Ayah"></div>
+                                                                <div class="col-sm-4"><label for="nik_ayah">NIK</label></div>
+                                                                <div class="col-sm-8"><input type="number" name="nik_ayah" id="nik_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="No. Induk Kependudukan"></div>
+                                                                <div class="col-sm-4"><label for="tempat_lahir_ayah">Tempat Lahir</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="tempat_lahir_ayah" id="tempat_lahir_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Tempat Lahir"></div>
+                                                                <div class="col-sm-4"><label for="tanggal_lahir_ayah">Tanggal Lahir</label></div>
+                                                                <div class="col-sm-8"><input type="date" name="tanggal_lahir_ayah" id="tanggal_lahir_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Tanggal Lahir"></div>
+                                                                <div class="col-sm-4"><label for="pendidikan_ayah">Pendidikan</label></div>
+                                                                <div class="col-sm-8">
+                                                                    <select name="pendidikan_ayah" id="pendidikan_ayah" class="form-control form-control-sm mb-2" required="true">
+                                                                        <option value="">-- Pendidikan Ayah --</option>
+                                                                        <option value="SD">SD</option>
+                                                                        <option value="SMP">SMP</option>
+                                                                        <option value="SMA">SMA</option>
+                                                                        <option value="Sarjana">Sarjana / S1</option>
+                                                                        <option value="Megister">Megister / S2</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-sm-4"><label for="pekerjaan_ayah">Pekerjaan Ayah</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="pekerjaan_ayah" id="pekerjaan_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Pekerjaan Ayah"></div>
+                                                                <div class="col-sm-4"><label for="penghasilan_ayah">Penghasilan Ayah</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="penghasilan_ayah" id="penghasilan_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Penghasilan Ayah"></div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="nik_ayah">NIK</label></div>
-                                                        <div class="col-sm-8"><input type="number" name="nik_ayah" id="nik_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="No. Induk Kependudukan"></div>
-                                                        <div class="col-sm-4"><label for="nik_ibu">NIK</label></div>
-                                                        <div class="col-sm-8"><input type="number" name="nik_ibu" id="nik_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="No. Induk Kependudukan"></div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="tempat_lahir_ayah">Tempat Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="tempat_lahir_ayah" id="tempat_lahir_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Tempat Lahir"></div>
-                                                        <div class="col-sm-4"><label for="tempat_lahir_ibu">Tempat Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="tempat_lahir_ibu" id="tempat_lahir_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Tempat Lahir"></div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="tanggal_lahir_ayah">Tanggal Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="date" name="tanggal_lahir_ayah" id="tanggal_lahir_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Tanggal Lahir"></div>
-                                                        <div class="col-sm-4"><label for="tanggal_lahir_ibu">Tanggal Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="date" name="tanggal_lahir_ibu" id="tanggal_lahir_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Tanggal Lahir"></div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="pendidikan_ayah">Pendidikan</label></div>
-                                                        <div class="col-sm-8">
-                                                            <select name="pendidikan_ayah" id="pendidikan_ayah" class="form-control form-control-sm mb-2" required="true">
-                                                                <option value="">-- Pendidikan Ayah --</option>
-                                                                <option value="SD">SD</option>
-                                                                <option value="SMP">SMP</option>
-                                                                <option value="SMA">SMA</option>
-                                                                <option value="Sarjana">Sarjana / S1</option>
-                                                                <option value="Megister">Megister / S2</option>
-                                                            </select>
+                                                        <div class="col-6">
+                                                            <div class="row">
+                                                                <div class="col-sm-4"><label for="nama_ibu">Nama Ibu</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="nama_ibu" id="nama_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Nama Ibu"></div>    
+                                                                <div class="col-sm-4"><label for="nik_ibu">NIK</label></div>
+                                                                <div class="col-sm-8"><input type="number" name="nik_ibu" id="nik_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="No. Induk Kependudukan"></div>
+                                                                <div class="col-sm-4"><label for="tempat_lahir_ibu">Tempat Lahir</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="tempat_lahir_ibu" id="tempat_lahir_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Tempat Lahir"></div>
+                                                                <div class="col-sm-4"><label for="tanggal_lahir_ibu">Tanggal Lahir</label></div>
+                                                                <div class="col-sm-8"><input type="date" name="tanggal_lahir_ibu" id="tanggal_lahir_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Tanggal Lahir"></div>
+                                                                <div class="col-sm-4"><label for="pendidikan_ibu">Pendidikan</label></div>
+                                                                <div class="col-sm-8">
+                                                                    <select name="pendidikan_ibu" id="pendidikan_ibu" class="form-control form-control-sm mb-2" required="true">
+                                                                        <option value="">-- Pendidikan Ibu --</option>
+                                                                        <option value="SD">SD</option>
+                                                                        <option value="SMP">SMP</option>
+                                                                        <option value="SMA">SMA</option>
+                                                                        <option value="Sarjana">Sarjana / S1</option>
+                                                                        <option value="Megister">Megister / S2</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-sm-4"><label for="pekerjaan_ibu">Pekerjaan Ibu</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="pekerjaan_ibu" id="pekerjaan_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Pekerjaan Ibu"></div>
+                                                                <div class="col-sm-4"><label for="penghasilan_ibu">Penghasilan Ibu</label></div>
+                                                                <div class="col-sm-8"><input type="text" name="penghasilan_ibu" id="penghasilan_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Penghasilan Ibu"></div>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-sm-4"><label for="pendidikan_ibu">Pendidikan</label></div>
-                                                        <div class="col-sm-8">
-                                                            <select name="pendidikan_ibu" id="pendidikan_ibu" class="form-control form-control-sm mb-2" required="true">
-                                                                <option value="">-- Pendidikan Ibu --</option>
-                                                                <option value="SD">SD</option>
-                                                                <option value="SMP">SMP</option>
-                                                                <option value="SMA">SMA</option>
-                                                                <option value="Sarjana">Sarjana / S1</option>
-                                                                <option value="Megister">Megister / S2</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="pekerjaan_ayah">Pekerjaan Ayah</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="pekerjaan_ayah" id="pekerjaan_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Pekerjaan Ayah"></div>
-                                                        <div class="col-sm-4"><label for="pekerjaan_ibu">Pekerjaan Ibu</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="pekerjaan_ibu" id="pekerjaan_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Pekerjaan Ibu"></div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-sm-4"><label for="penghasilan_ayah">Penghasilan Ayah</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="penghasilan_ayah" id="penghasilan_ayah" class="form-control form-control-sm mb-2" required="true" placeholder="Penghasilan Ayah"></div>
-                                                        <div class="col-sm-4"><label for="penghasilan_ibu">Penghasilan Ibu</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="penghasilan_ibu" id="penghasilan_ibu" class="form-control form-control-sm mb-2" required="true" placeholder="Penghasilan Ibu"></div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane" id="datawali">
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="nama_wali">Nama Wali</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="nama_wali" id="nama_wali" class="form-control form-control-sm mb-2" placeholder="Nama Wali"></div>
+                                                        <div class="col-sm-2"><label for="nama_wali">Nama Wali</label></div>
+                                                        <div class="col-sm-4"><input type="text" name="nama_wali" id="nama_wali" class="form-control form-control-sm mb-2" placeholder="Nama Wali"></div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="nik_wali">NIK</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="nik_wali" id="nik_wali" class="form-control form-control-sm mb-2" placeholder="No. Induk Kependudukan"></div>
+                                                        <div class="col-sm-2"><label for="nik_wali">NIK</label></div>
+                                                        <div class="col-sm-4"><input type="text" name="nik_wali" id="nik_wali" class="form-control form-control-sm mb-2" placeholder="No. Induk Kependudukan"></div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="tempat_lahir_wali">Tempat Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="tempat_lahir_wali" id="tempat_lahir_wali" class="form-control form-control-sm mb-2" placeholder="Tempat Lahir"></div>
+                                                        <div class="col-sm-2"><label for="tempat_lahir_wali">Tempat Lahir</label></div>
+                                                        <div class="col-sm-4"><input type="text" name="tempat_lahir_wali" id="tempat_lahir_wali" class="form-control form-control-sm mb-2" placeholder="Tempat Lahir"></div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="tanggal_lahir_wali">Tanggal Lahir</label></div>
-                                                        <div class="col-sm-8"><input type="date" name="tanggal_lahir_wali" id="tanggal_lahir_wali" class="form-control form-control-sm mb-2" placeholder="Tanggal Lahir"></div>
+                                                        <div class="col-sm-2"><label for="tanggal_lahir_wali">Tanggal Lahir</label></div>
+                                                        <div class="col-sm-4"><input type="date" name="tanggal_lahir_wali" id="tanggal_lahir_wali" class="form-control form-control-sm mb-2" placeholder="Tanggal Lahir"></div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="pendidikan_wali">Pendidikan</label></div>
-                                                        <div class="col-sm-8">
+                                                        <div class="col-sm-2"><label for="pendidikan_wali">Pendidikan</label></div>
+                                                        <div class="col-sm-4">
                                                             <select name="pendidikan_wali" id="pendidikan_wali" class="form-control form-control-sm mb-2">
                                                                 <option value="">-- Pendidikan Wali --</option>
                                                                 <option value="SD">SD</option>
@@ -302,12 +294,12 @@
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="pekerjaan_wali">Pekerjaan Wali</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="pekerjaan_wali" id="pekerjaan_wali" class="form-control form-control-sm mb-2" placeholder="Pekerjaan Wali"></div>
+                                                        <div class="col-sm-2"><label for="pekerjaan_wali">Pekerjaan Wali</label></div>
+                                                        <div class="col-sm-4"><input type="text" name="pekerjaan_wali" id="pekerjaan_wali" class="form-control form-control-sm mb-2" placeholder="Pekerjaan Wali"></div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-sm-4"><label for="penghasilan_wali">Penghasilan Wali</label></div>
-                                                        <div class="col-sm-8"><input type="text" name="penghasilan_wali" id="penghasilan_wali" class="form-control form-control-sm mb-2" placeholder="Penghasilan Wali"></div>
+                                                        <div class="col-sm-2"><label for="penghasilan_wali">Penghasilan Wali</label></div>
+                                                        <div class="col-sm-4"><input type="text" name="penghasilan_wali" id="penghasilan_wali" class="form-control form-control-sm mb-2" placeholder="Penghasilan Wali"></div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col"><button class="btn btn-sm btn-info"><i class="fas fa-save"></i> Simpan</button></div>
@@ -323,6 +315,7 @@
             </div>
         </div>
     </div>
+    <?php $this->load->view('template/modal_page')?>
     <?php $this->load->view('template/nav-footer') ?>
 </body>
 </html>

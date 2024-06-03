@@ -20,6 +20,16 @@
                         <i class="fas fa-edit"></i> Regsitrasi
                     </a>
                 </div>
+                <div class="nav-item">
+                    <a href="" data-toggle="modal" data-target="#admin" data-backdrop="static" data-keyword="false" class="nav-link text-white text-bold">
+                        <i class="fas fa-user"></i> Admin
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="" data-toggle="modal" data-target="#jurusan" data-backdrop="static" data-keyword="false" class="nav-link text-white text-bold">
+                        <i class="fas fa-tools"></i> Daftar Jurusan
+                    </a>
+                </div>
             </div>
             <ul class="navbar-nav ml-auto">
                 <div class="nav-item">
